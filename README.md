@@ -6,7 +6,7 @@ A modern, responsive plant store web application built with React and Vite. Flor
 
 ## 🖥️ Live Preview
 
-> [https://floravision.vercel.app](https://floravision.vercel.app)
+> [https://flora-vision-rb9tejeoa-satyajit799s-projects.vercel.app](https://flora-vision-rb9tejeoa-satyajit799s-projects.vercel.app)
 
 ## ✨ Features
 

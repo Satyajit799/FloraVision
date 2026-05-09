@@ -18,10 +18,10 @@ const Footer = () => {
         <div className="flex items-center justify-center flex-col">
           <h3 className="text-2xl font-semibold mb-5">Quick Links</h3>
           <div className="flex flex-col gap-4">
-            <a href="#home" className="hover:text-white transition">Home</a>
-            <a href="#products" className="hover:text-white transition">Products</a>
-            <a href="#reviews" className="hover:text-white transition">Contact</a>
-            <a href="#best" className="hover:text-white transition">Privacy</a>
+            <a href="#home" className="hover:text-white transition underline">Home</a>
+            <a href="#products" className="hover:text-white transition underline">Products</a>
+            <a href="#reviews" className="hover:text-white transition underline">Contact</a>
+            <a href="#best" className="hover:text-white transition underline">Privacy</a>
           </div>
         </div>
 
