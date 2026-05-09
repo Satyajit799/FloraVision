@@ -1,5 +1,7 @@
 # 🌿 FloraVision
 
+[![GitHub](https://img.shields.io/badge/GitHub-Satyajit799%2FFloraVision-blue?logo=github)](https://github.com/Satyajit799/FloraVision/tree/main)
+
 A modern, responsive plant store web application built with React and Vite. FloraVision showcases indoor plants with a sleek glassmorphism UI design.
 
 ## 🖥️ Live Preview
@@ -62,7 +64,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/floravision.git
+git clone https://github.com/Satyajit799/FloraVision.git
 
 # Navigate to the project directory
 cd floravision
