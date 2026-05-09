@@ -3,7 +3,7 @@ import LogoImage from "../assets/LogoImage.png";
 const Footer = () => {
   return (
     <footer className="text-white px-10 py-14">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 text-xl md:text-2xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-10 text-xl lg:text-2xl">
         <div>
           <div className="flex items-center gap-2 mb-4">
             <img src={LogoImage} alt="FloraVision Logo" className="w-6 h-6" />
@@ -20,8 +20,8 @@ const Footer = () => {
           <div className="flex flex-col gap-4">
             <a href="#home" className="hover:text-white transition">Home</a>
             <a href="#products" className="hover:text-white transition">Products</a>
-            <a href="#reviews" className="hover:text-white transition">Reviews</a>
-            <a href="#best" className="hover:text-white transition">Best Of Us</a>
+            <a href="#reviews" className="hover:text-white transition">Contact</a>
+            <a href="#best" className="hover:text-white transition">Privacy</a>
           </div>
         </div>
 

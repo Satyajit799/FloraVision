@@ -11,19 +11,19 @@ const Navbar = () => {
         <h1 className="text-xl md:text-2xl font-bold">FloraVision</h1>
       </div>
       <div
-        className="hidden md:flex flex-row gap-10 text-2xl font-thin"
+        className="hidden lg:flex flex-row gap-10 text-2xl font-thin"
         style={{ fontFamily: "'Indie Flower', cursive" }}
       >
         <a href="#home">Home</a>
         <a href="#products">Plants Type <i className="ri-arrow-drop-down-fill"></i></a>
-        <a href="#best">Best Of Us</a>
-        <a href="#reviews">Reviews</a>
+        <a href="#best">More</a>
+        <a href="#reviews">Contact</a>
       </div>
-      <div className="hidden md:flex items-center gap-8 text-2xl">
+      <div className="hidden lg:flex items-center gap-8 text-2xl">
         <i className="ri-search-line"></i>
         <i className="ri-shopping-bag-4-line"></i>
       </div>
-      <button className="md:hidden text-2xl" onClick={() => setMenuOpen(!menuOpen)}>
+      <button className="lg:hidden text-2xl" onClick={() => setMenuOpen(!menuOpen)}>
         <i className={menuOpen ? "ri-close-line" : "ri-menu-3-fill"}></i>
       </button>
       {menuOpen && (
@@ -33,8 +33,8 @@ const Navbar = () => {
         >
           <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#products" onClick={() => setMenuOpen(false)}>Plants Type</a>
-          <a href="#best" onClick={() => setMenuOpen(false)}>Best Of Us</a>
-          <a href="#reviews" onClick={() => setMenuOpen(false)}>Reviews</a>
+          <a href="#best" onClick={() => setMenuOpen(false)}>More</a>
+          <a href="#reviews" onClick={() => setMenuOpen(false)}>Contact</a>
         </div>
       )}
     </nav>

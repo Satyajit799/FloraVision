@@ -13,7 +13,7 @@ const TopSellSection = () => {
           <span className="absolute -bottom-1 left-2 w-10 h-10 border-b-4 border-l-4 border-[#c8b86a] rounded-bl-lg"></span>
         </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-16 place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16 place-items-center">
         {products.map((product, index) => (
           <TopSell key={index} product={product} />
         ))}
